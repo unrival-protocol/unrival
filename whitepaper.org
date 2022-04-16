@@ -1,0 +1,184 @@
+#+TITLE: Unrival Whitepaper
+
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* Introduction
+
+  Unrival is a protocol for incentivizing the use of language in online environments that is consistent with our offline experience.  Misleading language tends to produce discrepancies between beliefs formed on the web and reality.  For example:
+  | trigger (depiction) | belief (expectation)                            | reality (outcome)                     |
+  |---------------------+-------------------------------------------------+---------------------------------------|
+  | read product review | /I should buy this prodcut/                     | I shouldn't have bought that product  |
+  |---------------------+-------------------------------------------------+---------------------------------------|
+  | read news article   | /This event happened this way and not that way/ | It happened that way and not this way |
+
+    Put simply, Unrival minimizes the gap between our expectations --- as engendered by what we see depicted online ---  and outcomes.
+
+** Feedback Mechanisms
+  
+  Unrival addresses this problem by formalizing a type of feedback mechanism that rewards honesty and penalizes dishonesty.  This mechanism is domain-agnostic; instead of giving participants the means to describe any one thing in particular detail, generality and extensibility are aimed for.  Anything, mental or physical, static or dynamic---as long as it can be differentiated from other things by a name---can act as a receptacle for feedback in Unrival.  
+
+  Existing feedback mechanisms target specific domains, like e-commerce, democratic elections, and so on.  At the same time, they reflect their creators' goals - such as maximizing product sales or the turnout of (certain types of) voters.  What tends to be overlooked: /the goals of the creators of feedback mechanisms may be misaligned with those of their users/.  For example, it is the producers' goal for the consumer to pay as much as possible for as little, while the consumer has the opposite goal in mind.  Being responsible for product ratings (in the case of e-commerce), the producer will follow the incentive to inflate positive feedback (product reviews), as this leads to more purchases - especially from first-time purchasers who don't know any better.  
+
+  If we look for skin in the ratings game, we find it mostly on the side of consumers.  When reviews go wrong, consumers pay for what they don't want/need, and no one would expect symmetrical recourse against the creator of the (possibly bad-faith) review.  Blame can always be distributed: the platform owner blames the vendors, who blame to the customers, who blame themselves.
+
+  In theory, dissatisfied customers have the power to post product reviews - but this course of action lacks tangible benefit for the digruntled, especially when such reviews can be drowned out by falsified positive reviews, or even cause for retribution.  So most consumers simply count their losses and accept the new status quo.  Multitudes of product reviews don't translate into more power for consumers.
+
+  Unrival's ultimate goal is to enable users to pursue their own goals, rather than unconsciously furthering those of others.
+
+  *ELECTIONS*
+  
+  Unfortunately, democratic elections follow similar dynamics.  The American presidential election is held on Tuesdays, for example, and still hasn't been made a national holdiday.  Those who can't get off work (otherwise known as the poor) are under-represented in election turnouts, while  who are rich and powerful tend to be over-represented in the legislators who make the rules - with predictable results (i.e. things tend to stay that way).  Again, bad-faith behavior is not without its rewards.
+
+  regarding  self-interest to assign *normative definitions* to arbitrary objects.  
+
+  /Normative definitions/---as opposed to /descriptive definitions/---define how things /ought/ to be.  A normative definition of /news/ may require things described by that label to be factually correct and balanced, for example.  On the other hand, a /descriptive definition/ may be very different - depending on the quality of the so-called news.
+
+** Races to the Bottom
+
+  Especially online, those who misrepresent facts rarely pay a price for doing so.  Clickbait, fake product reviews, and fake news are increasingly prevalent because of their increasingly attractive utility functions: the payoffs are outpacing the penalties.   Bad faith is more profitable than good faith. The more these perverse dynamics become the norm, the more we are left with a polluted information ecology and an inability to sensemake collectively.
+
+  But we shouldn't expect more from the present medium: an increasingly centralized internet funded by the exploitation of human attention.  Algorithms determine destinies; those that don't exploit are made irrelevant in the present paradigm.
+
+  This doesn't have to be the case, however.  In what follows, we argue for the viability of a new kind of medium.  
+   
+
+Our activities online revolve around the production and consumption of digital representations of the analog world.  There is often little to no incentive ensuring that these representations reflect reality: McDonald's advertisements aren't effective because they depict their products accurately, nor are the most factual and balanced news outlets the most popular.  Rather, perverse incentives exist that make exaggeration, sensationalism, and other forms of emotional manipulation the only profitable gigs in town.  Those producers unwilling to employ these tactics lose competitive advantage in this race to the bottom and become irrelevant.
+
+
+** Races to the Top
+
+   
+Unrival is a protocol for bringing about a tighter correspondence between representations and reality.  
+
+It introduces a formal method for stakeholders to define /norms/, i.e. agreed-upon expectations.  Producers can reference these norms in the descriptions (i.e. digital representations) of their products.  But in order to do so, these producers must stake resources on the faithfulness of their representations.  This assures consumers that depictions of products are meant to be accurate.  If this isn't the case, consumers have a means of leaving feedback to express perceived discrepancies - and they are also incentivized to do so, as their honest opinions are of benefit to others, and an efficient system should reward this behavior.
+
+Explicate the typically implicit claims (i.e. promises) they make to the outside world (e.g. a doctor promises to uphold the Hippocratic Oath).  As a result, those to whom these promises are made may publically assess their faithfulness, and benefit from the assessments of others.  This is the essence of Unrival.
+
+Producers and consumers of representations can stake their own credibility on the accuracy of these representations.  This encourages participants to act in good faith, resulting in more accurate representations.
+
+In economic terms, Unrival can minimize information asymmetry between agents in markets.  Typical approaches ways of accomplishing this, like e-commerce ratings, are hackable for a variety of reasons.  The lack of a medium for the accurate and expressive representation of subjective opinion is a yet unfulfilled requirements for the creation of a future in which individuals are empowered to pursue their own interests and not those imposed upon them.  
+    The meta-game challenges players to find some way of signalling to their opponenents/co-players the fact that they'd like to play their game on another level.  This doesn't mean a different game altogether.
+** Defining Norms
+  Normative definitions ensure that, when real-world outcomes fail to live up to expectations, those who are expecting more can voice their concerns coherently and collectively.  This depends on groups of peers expecting the same outcomes; hence the need for establishing norms.  Of course, norms musn't be gotten right the first time; Unrival doesn't aim to be a grand design, but rather a process for navigating towards better design.
+
+  Normative definitions shouldn't be taken lightly, however.
+   
+   When a society has unsophisticated means of addressing /ought/ questions (e.g. "Which substances ought to be legally consumable?"), the set of answers it supplies tend to do more harm than good, and are difficult to revise once in place (e.g. international controlled substance laws).
+
+   Our method will be a success only insofar as it can be updated to accord with the accumulated wisdom of participants.
+    
+*** Dialogic vs Monologic
+
+   Unrival's process for arriving at norms is /dialogic/ as opposed to /monologic/.  A monologic norm is one handed down by authority.  For example, a state or religion may pre- or pro-scribe certain types of behavior - your compliance being obligatory.  A /dialogic/ norm is arrived at through dialogue.  Your participation is willful.
+  
+* Theoretical Background
+
+** Rectification of Names (正名)
+Roughly 2500 years ago, Confucius was asked what he would do if he were governor. He would /rectify names/, he said, /to make words correspond with reality/.
+
+Unrival can be seen as a technological strategy for accomplishing this. Whereas Confucius' project may seem impossibly abstract, Unrival is rooted in practical application - from building better rating systems to facilitating decentralized sensemaking.
+
+It starts by addressing the underlying cause Confucius may have been after: the name (the signifier) becomes misaligned with the reality (the signified) because this benefits someone - usually with influence over how language is used. 
+
+To illustrate: In the present, what we call news carries a set of connotations, or implicit promises made by /news/ that make it such. Whatever is deserving of the title should be relevant (1st promise) and factual (2nd promise), for starters. Yet, as we're all aware, these descriptions hardly apply to much of what is commonly called news. To rectify the name would mean creating a mechanism whereby things justifiably called news would tend to reach readers over content that abuses the name.
+
+Creating such a mechanism, such that it relies on the self-interest of individuals and not on wishful thinking to take flight, is the goal of Unrival.   
+** Promise Theory
+
+In Promise Theory we find an adequate account of the mechanics of promises.  This is a bottom-up formalization of promises was originally conceived as a way to analyze IT systems, but has far-reaching implications for describing the behavior of autonomous agents in general.
+
+We find an adequate account of the mechanics of promises in Promise Theory - a bottom-up view of the world whereby the interactions of agents---things capable of making promises, i.e. claims about intended outcomes---are described only in terms of those agents' professed intentions.  The novelty of this approach is apparent when we consider how things are normally described - in terms of intentions projected onto them by others.  The advantage lies in the shift of focus onto what agents themselves can promise about their own behavior, as opposed to impositions made on them by others.  For example, a supervisor's expectation that their workers will complete a project isn't relevant to Promise Theory - rather, it's the collection of promises those workers make on their own volition that should inform our expectations.  Therefore, Promise Theory has a greater chance of being accurate in describing the world, as it removes a degree of uncertainty - the inherent uncertainty involved in any imposition from  one agent onto others.  Promises we make about our own behavior are simply more likely to be kept than promises we make on the behalf of others.
+
+Agents make promises to the outside world: a tea kettle promises to boil water, a politician promises not to take money from lobyists, and so on.  The reliability of these promises can be assessed by other agents.  Unrival extends this by requring /skin in the game/ of agents making and assessing promises.  When an agent views an entity making a particular set of promises, they also have access to information to their peers' assessments of the reliability of these promises.  
+
+** Multilevel Selection
+ If agents are given the ability to make and assess promises, will it result in any qualitative changes in how they deal with one another?  Implicitly, agents already do this: they make various claims and leave feedback online.  Explicating these behaviors for the sake of theory may add some clarity, but won't influence behavior.  However, when incentives are added into the mix, we may expect qualitative changes in agent behavior.  We base this on Multilevel Selection theory, which says that biological selection pertains not only to individuals, but also to groups.
+
+ 
+** Theory of Constraints
+   
+** Data
+  When consuming online resources, we can't be certain of their quality beforehand, though we do have expectations.  Unrival minimizes the gap between these expectations and outcomes.  This becomes particularly important in environments where incentives exist to serve misrepresented data - as it is in the case of news organizations embellishing their product to create certain types of reactions in their clientele.
+
+  Conventional things that conform to this description -- like e-commerce ratings, reputation systems, etc -- tend to have flaws that make them only useful under ideal conditions.  In addition, an effective means of gauging subjective opinions can open up other domains of application typically untouched by reputation systems - from voting on proposals to directing collaboration on projects to refining philosophical views through collective intelligence.
+
+  When consumers interact with data, they typically do so with preconceived notions of what that interaction should be like.  As long as they are capable of expecting, these consumers can be humans or machines (if we allow a harmless anthropomorphism).  Roughly speaking, machine expectations being fulfilled or not is an objective matter (e.g. a web server expects only HTTP GET requests), while this is entirely subjective for humans.  For either case, Unrival provides a means of specifying precisely what is expected: /claims/ for subjectively verifiable outcomes (e.g. "that recipe is good"), and /proofs/ for those verified objectively (e.g. this document is encoded in UTF-8).
+
+  Consumers are incentivized to assess claims faithfully by a rewarding mechanism based on corroboration.  Assessments are collected in a public record representing subjective feedback, which is used to assign credibility scores to arbitrary objects.
+
+** Money
+  This view of data subsumes other means of measuring subjective opinion, from product reviews to electoral votes.  For various reasons, the integrity of such measures has been invariably compromised, historically speaking; online ratings and elections alike are imminently hackable.  Advances in artificial intelligence will surely exacerbate this - as long as platforms are incentivized to follow the dangerous path of profiting from conflictual relationships between users.
+
+  /There is real value in the accurate representation of peer opinions/.  For anyone who's ever wondered how to find a good lawyer, psychologist, or spiritual community, the answer, even today, is word of mouth - technology has still done little to enable us to learn the past experience of others, and much to the opposite end.  Comparatively trivial subject matter -- like Marvel movies -- can inspire endless feedback, so that viewer satisfaction appears to converge on certain ratings.  But what about votes to unionize a workforce, which are often stopped dead in their tracks due to workers' rational fear of retribution, or compromised via corporate gaslighting?  An effective means of gauging the subjective opinions of peers is more than efficient way to consume - it represents a new way to organize.
+
+* Protocol
+** Objects
+   Unrival objects are content-addressed data 
+*** Promise
+    A promise is a claim made about an intended outcome.  In everyday life, promises aren't always explicitly stated, but they are nonetheless understood.
+*** Agent
+    An agent is anything capable of making a promise.
+*** Assessment
+*** Domain
+A domain is a set of related promises that tend to be expected in a bundle.  Domains are represented by entities, which can be considered instances of domains.  For example, if we consider "country" as a domain, then we will expect entities representing this domain to make the same promises - e.g. to have a country code, to have a location, to have (possibly) an official language, etc.
+
+We also consider certain domains as sub- or super- domains of others.  E.g. the domain of Spaniels is a subdomain of Canines.
+**** Root Domain
+     A root domain is the root node of a graph of connected domains.  In order to be considered an Unrival network (i.e. domain graph), a network must have a root domain that promises to be an Unrival root domain.
+*** Entity
+    An entity is a representative of a domain - i.e. something of which all things promised by that domain are fulfilled.  A particular dog can be an instance of a mammal, a canine, or a German Shepherd - as long as it fulfills expectations.`
+*** Name
+A name is a label by which we tend to call a domain in natural language.  A domain may have many names, in one or more natural languages (e.g. dog, canine, perro).  
+*** Interface
+An interface is a means of interacting with an Unrival object.
+*** Proposal
+A proposal is a suggestion to change a domain.      
+*** Vote
+A vote is an agent's way to signal that they are with or against changes introduced in a proposal.
+*** Message
+Messages are the key means of transport.  Unrival doesn't prescribe a particular protocol, like Matrix or Scuttlebutt - instead, 
+** Architecture
+   Unrival architecture consists of three layers with distinct purposes:
+   - The /resource layer/ is a set of representations of real world objects.  
+   - The /governance layer/ is a set of tools for managing normative definitions of representations.
+   - The /interpretation layer/ is a set of methods for assigning value to assessments.
+*** Resource Layer
+    The resource layer simply consists of entities, or things that can be falsely represented.  We mean /resource/ in the economic sense - things we talk about as being limited, rivalrous, excludable, corruptible, etc.  By contrast, domains represent natural language pointers that are inherently beyond the scope of value judgments; this is why they are not counted among the possibly fallible resources.  We can judge the correctness of a label for a particular object, but can't deny the legitimacy of a label independent of what is claiming to be described by it.  In other words: domains can simply be viewed as names, and as such, we reserve judgment for the things that claim those names of themselves.
+
+    The world of online data is effectively a commons - a non-exclusive, rivalrous resource.  As such, it is subject to the Tragedy of the Commons: it works best when all players contribute to its upkeep, but since those who defect from this agreement stand to gain more, this becomes the expected outcome.  Elinor Ostrom showed that this conclusion isn't inevitable, and certain strategies for communal management of such resources arise sponateously.  This is not a given, however; right conditions must enable bottom-up resource management.  The governance and interpretation layers are how Unrival accomplishes this.
+*** Governance Layer
+    The governance layer can be thought of as a means for attaching metadata to entities.  
+*** Interpretation Layer
+    The metadata attached to resources via the governance layer must be computed to be understood by humans.  An assessment ledger, for example, can be interpreted in innumerable ways.  Should assessments be subject to diminishing returns?
+** Network
+* An Application: Collaborative Decision Making
+  It turns out that getting a way of creating, assessing, and communicating promises gives us a means of effective collaborative decision making practically for free.  We'll illustrate how this works by demonstrating some decision making processes in Unrival.
+** Consensus
+*** User Story:
+- Alice creates a domain and attaches the name "science" to it.  The following happens in the background:
+  - 
+#+begin_src json
+  // This domain is "up for grabs", meaning that it can be changed without stake.  
+    {
+        "parents": ["unrival"], // without an ancestor
+        "names": ["akjwefklewjfklewjf"], // "science"
+        "promises": [],
+        "assesments": [],
+        "entities": [],
+        "stakeholders": [],
+        "proposals": [],
+        "votes": [],
+        "interfaces": [],
+        "messages": [],
+    }
+#+end_src
+** Democracy
+** Meritocracy
+* Other Applications
+** Taxonomies and TOEs
+The most trivial application of Unrival may be consensus-driven naming, where names can be placed in hierarchies.  This is essentially how evolutionary biologists constructed the Tree of Life.
+** Sensemaking
+** Bottom-Up Organizations
+* Footnotes
+
+[fn:1] Based on a sharp decline in mental health and increase in societal polarization that have come to define the world we live in.   
